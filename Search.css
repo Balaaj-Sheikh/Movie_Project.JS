@@ -1,0 +1,21 @@
+.search {
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    border: 2px solid #22254B;
+    background-color: transparent;
+    font-family: inherit;
+    color: #eee;
+    font-size: 1rem;
+    }
+    .search::placeholder{
+        color: #AFB2DC;
+    }
+    .search:focus{
+        outline: none;
+        background-color: #05082C;
+    }
+    main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
